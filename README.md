@@ -6,7 +6,7 @@
 
 Apex Gym es una aplicación móvil nativa desarrollada en **Kotlin** diseñada para optimizar la administración interna de gimnasios. Este sistema permite gestionar el acceso del personal y el control de usuarios mediante una arquitectura robusta y una interfaz moderna basada en **Material Design 3**.
 
-## 🚀 Características Principales
+## Características Principales
 
 * **Autenticación de Seguridad:** Sistema de Login vinculado a base de datos para restringir el acceso solo a personal autorizado.
 * **Gestión de Usuarios (CRUD):** Módulo completo para la búsqueda, actualización y eliminación de registros administrativos.
@@ -14,7 +14,7 @@ Apex Gym es una aplicación móvil nativa desarrollada en **Kotlin** diseñada p
 * **UI/UX Dinámica:** Diseño responsivo con efectos visuales (Ripple effect), tarjetas elevadas y navegación intuitiva.
 * **Cierre de Sesión Seguro:** Función de Logout que limpia la pila de actividades para prevenir accesos no autorizados mediante la navegación del sistema.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **Lenguaje:** [Kotlin](https://kotlinlang.org/)
 * **IDE:** Android Studio (Ladybug/Jellyfish)
@@ -22,14 +22,14 @@ Apex Gym es una aplicación móvil nativa desarrollada en **Kotlin** diseñada p
 * **Componentes Visuales:** Material Components para Android.
 * **Control de Versiones:** Git & GitHub.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 * `/app/src/main/java`: Contiene la lógica de negocio y controladores (Activities y DatabaseHelper).
 * `/app/src/main/res/layout`: Definiciones de interfaz de usuario en archivos XML.
 * `/Documentacion`: Incluye el plan de gestión de riesgos, manual de usuario y presentación ejecutiva.
 * `/APK`: Archivo ejecutable `app-debug.apk` listo para su instalación.
 
-## 🔧 Instalación y Pruebas
+## Instalación y Pruebas
 
 1.  **Clonar el repositorio:**
     ```bash
@@ -42,7 +42,7 @@ Apex Gym es una aplicación móvil nativa desarrollada en **Kotlin** diseñada p
 - **Usuario:** `admin`
 - **Contraseña:** `1234`
 
-## 👤 Autores
+## Autores
 * **Franco Motta**
 * **Julio Basulto**
 * **Marlon Lastra**
