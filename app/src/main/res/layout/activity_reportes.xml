@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F7F6"
+    android:padding="24dp">
+
+    <ImageButton
+        android:id="@+id/btnRegresarReportes"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_revert"
+        app:tint="#0B132B" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reportes"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#0B132B"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No hay datos suficientes para generar estadísticas aún."
+        android:layout_marginTop="32dp"
+        android:textColor="#6C757D"/>
+</LinearLayout>

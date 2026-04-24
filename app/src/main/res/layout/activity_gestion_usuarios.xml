@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F7F6"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="32dp">
+
+        <ImageButton
+            android:id="@+id/btnRegresarCrud"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="#0B132B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Usuarios"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0B132B"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+    <EditText android:id="@+id/etCrudId" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="ID (Para Buscar/Borrar)" android:inputType="number" android:layout_marginBottom="12dp"/>
+    <EditText android:id="@+id/etCrudUser" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nombre de Usuario" android:layout_marginBottom="12dp"/>
+    <EditText android:id="@+id/etCrudPass" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Contraseña" android:layout_marginBottom="32dp"/>
+
+    <Button android:id="@+id/btnCrudBuscar" android:layout_width="match_parent" android:layout_height="55dp" android:text="BUSCAR POR NOMBRE" android:backgroundTint="#005CBB" android:layout_marginBottom="8dp"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:weightSum="2">
+        <Button android:id="@+id/btnCrudActualizar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="ACTUALIZAR" android:backgroundTint="#FFC107" android:textColor="#000" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btnCrudBorrar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="BORRAR" android:backgroundTint="#DC3545" android:layout_marginStart="4dp"/>
+    </LinearLayout>
+</LinearLayout>

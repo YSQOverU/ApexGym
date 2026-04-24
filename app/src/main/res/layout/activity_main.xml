@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F7F6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:background="#0B132B">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APEX GYM"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+        <ImageButton
+            android:id="@+id/btnLogout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_lock_power_off"
+            app:tint="#FF5252" />
+    </RelativeLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="2" android:padding="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardUsuarios"
+                android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" android:layout_margin="8dp" app:cardCornerRadius="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="👤 Usuarios" android:textStyle="bold"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardReportes"
+                android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" android:layout_margin="8dp" app:cardCornerRadius="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="📊 Reportes" android:textStyle="bold"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardClientes"
+                android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" android:layout_margin="8dp" app:cardCornerRadius="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="🏋️ Socios" android:textStyle="bold"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardInventario"
+                android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" android:layout_margin="8dp" app:cardCornerRadius="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="📦 Inventario" android:textStyle="bold"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAsistencia"
+                android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" android:layout_margin="8dp" app:cardCornerRadius="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="📝 Asistencia" android:textStyle="bold"/>
+            </com.google.android.material.card.MaterialCardView>
+
+        </GridLayout>
+    </ScrollView>
+</LinearLayout>
